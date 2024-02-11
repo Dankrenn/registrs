@@ -60,17 +60,15 @@
             // textBoxPassword
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(270, 230);
-            this.textBoxPassword.Multiline = true;
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(242, 27);
+            this.textBoxPassword.Size = new System.Drawing.Size(242, 20);
             this.textBoxPassword.TabIndex = 11;
             // 
             // textBoxLogin
             // 
             this.textBoxLogin.Location = new System.Drawing.Point(270, 170);
-            this.textBoxLogin.Multiline = true;
             this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(242, 27);
+            this.textBoxLogin.Size = new System.Drawing.Size(242, 20);
             this.textBoxLogin.TabIndex = 10;
             // 
             // exitButton

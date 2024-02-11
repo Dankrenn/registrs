@@ -65,17 +65,15 @@
             // textBoxLogin
             // 
             this.textBoxLogin.Location = new System.Drawing.Point(269, 169);
-            this.textBoxLogin.Multiline = true;
             this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(242, 27);
+            this.textBoxLogin.Size = new System.Drawing.Size(242, 20);
             this.textBoxLogin.TabIndex = 2;
             // 
             // textBoxPassword
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(269, 229);
-            this.textBoxPassword.Multiline = true;
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(242, 27);
+            this.textBoxPassword.Size = new System.Drawing.Size(242, 20);
             this.textBoxPassword.TabIndex = 3;
             // 
             // label1
@@ -111,9 +109,8 @@
             // textBoxName
             // 
             this.textBoxName.Location = new System.Drawing.Point(269, 111);
-            this.textBoxName.Multiline = true;
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(242, 27);
+            this.textBoxName.Size = new System.Drawing.Size(242, 20);
             this.textBoxName.TabIndex = 6;
             // 
             // labelAvtoriz

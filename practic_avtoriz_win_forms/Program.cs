@@ -16,7 +16,7 @@ namespace practic_avtoriz_win_forms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormRegistr());
+            Application.Run(new Capcha());
         }
     }
 }

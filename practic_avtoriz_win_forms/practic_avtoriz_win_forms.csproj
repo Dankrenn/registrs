@@ -95,6 +95,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Capcha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capcha.Designer.cs">
+      <DependentUpon>Capcha.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHub.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Capcha.resx">
+      <DependentUpon>Capcha.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRegistr.resx">
       <DependentUpon>FormRegistr.cs</DependentUpon>
     </EmbeddedResource>

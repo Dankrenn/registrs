@@ -58,9 +58,11 @@ namespace practic_avtoriz_win_forms
                         // Если количество неудачных попыток превысило 3, блокируем кнопку
                         if (failedLoginAttempts >= 3)
                         {
-                            buttonRegistr.Enabled = false;
-                            buttonRegistr.BackColor = Color.Red;
-                            unlockTimer.Start();
+                            this.Hide();
+                            new Capcha().ShowDialog();
+                            //buttonRegistr.Enabled = false;
+                            //buttonRegistr.BackColor = Color.Red;
+                            //unlockTimer.Start();
                         }
                     }
 
