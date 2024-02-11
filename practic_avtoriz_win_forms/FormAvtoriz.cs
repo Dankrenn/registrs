@@ -48,7 +48,7 @@ namespace practic_avtoriz_win_forms
                     {
                         MessageBox.Show("Пользователь успешно авторизирован");
                         this.Hide();
-                        new FormHub().ShowDialog();
+                        new FormHub(login).ShowDialog();
                     }
                     else
                     {

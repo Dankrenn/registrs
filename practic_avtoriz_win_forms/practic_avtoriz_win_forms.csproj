@@ -124,6 +124,9 @@
     <EmbeddedResource Include="Capcha.resx">
       <DependentUpon>Capcha.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormHub.resx">
+      <DependentUpon>FormHub.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRegistr.resx">
       <DependentUpon>FormRegistr.cs</DependentUpon>
     </EmbeddedResource>

@@ -12,9 +12,15 @@ namespace practic_avtoriz_win_forms
 {
     public partial class FormHub : Form
     {
-        public FormHub()
+        public FormHub(string userLogin)
         {
             InitializeComponent();
+            label1.Text = $"Пользователь: {userLogin}";
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

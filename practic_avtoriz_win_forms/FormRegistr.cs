@@ -35,7 +35,7 @@ namespace practic_avtoriz_win_forms
                 insertCommand.ExecuteNonQuery();
                 MessageBox.Show("Пользователь зарегистрирован успешно!");
                 this.Hide();
-                new FormHub().ShowDialog();
+                new FormHub(textBoxLogin.Text).ShowDialog();
             }
             catch (Exception ex)
             {
